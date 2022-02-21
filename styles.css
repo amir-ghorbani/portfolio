@@ -245,7 +245,7 @@ svg {
 
 @media all and (max-width: 950px){
     .child01-child01-content img {
-        width: 49.5%;
+        width: 49%;
         margin: 2px auto;
     }
     .container {
