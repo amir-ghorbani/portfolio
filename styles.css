@@ -241,6 +241,25 @@ svg {
 
 }
 
+
+
+@media all and (max-width: 950px){
+    .child01-child01-content img {
+        width: 49.5%;
+        margin: 2px auto;
+    }
+    .container {
+        max-width: 750px;
+        margin: 0 auto;
+        padding: 0 10px;
+        /* overflow: auto; */
+    }
+    .toggle-button {
+        right: 1rem;
+  
+    }
+}
+
 @media all and (max-width: 800px){
     .child01-child01-content img {
         width: 100%;
