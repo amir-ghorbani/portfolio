@@ -7,6 +7,10 @@
     --primary-color: #f2f2f2;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -55,7 +59,7 @@ img {
     height: 70px;
     width: 100%;
     position: fixed;
-    margin-top: -99px;
+    margin-top: -100px;
 }
 
 .navbar ul {
@@ -145,7 +149,7 @@ svg {
     margin: 0 auto;
 }
 
-.child01-child01-content img {
+.child01-child01-content a {
     width: 33%;
     margin: 2px auto;
 }
@@ -173,7 +177,53 @@ svg {
     margin: 20px;
 }
 
+#arrow01 img{
+    width: 50px;
+    height: 40px;
+}
 
+#arrow02 img{
+    width: 50px;
+    height: 40px;
+}
+
+
+@media all and (max-width: 950px){
+    .child01-child01-content a {
+        width: 49%;
+        margin: 2px auto;
+    }
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 10px;
+        /* overflow: auto; */
+    }
+    .toggle-button {
+        right: 1rem;
+  
+    }
+}
+
+@media all and (max-width: 800px){
+    .child01-child01-content img {
+        width: 100%;
+        margin: 2px auto;
+    }
+    .container {
+        max-width: 750px;
+        margin: 0 auto;
+        padding: 0 3px;
+        /* overflow: auto; */
+    }
+    .toggle-button {
+        right: 0.5rem;
+  
+    }
+    .arrowUp {
+        margin: 30px 0;
+    }
+}
 
 
 @media all and (max-width: 650px) {
@@ -223,7 +273,7 @@ svg {
         font-size: 22px;
         text-align: center;
         padding-bottom: 8rem;
-        margin-top: -29px;
+        margin-top: -30px;
     }
 
     /* Showcase */
@@ -237,44 +287,20 @@ svg {
  .arrow {
      margin-top: -50px;
  }
+ .arrowUp {
+    margin: 20px 0;
+}
+
+.child01-child01-content a {
+    width: 100%;
+    margin: 2px auto;
+}
 
 
 }
 
 
 
-@media all and (max-width: 950px){
-    .child01-child01-content img {
-        width: 49%;
-        margin: 2px auto;
-    }
-    .container {
-        max-width: 900px;
-        margin: 0 auto;
-        padding: 0 10px;
-        /* overflow: auto; */
-    }
-    .toggle-button {
-        right: 1rem;
-  
-    }
-}
 
-@media all and (max-width: 800px){
-    .child01-child01-content img {
-        width: 100%;
-        margin: 2px auto;
-    }
-    .container {
-        max-width: 750px;
-        margin: 0 auto;
-        padding: 0 10px;
-        /* overflow: auto; */
-    }
-    .toggle-button {
-        right: 1rem;
-  
-    }
-}
 
 
