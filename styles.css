@@ -279,6 +279,10 @@ svg {
     text-align: center;
 }
 
+#ppd {
+    font-size: 18px;
+}
+
 @media all and (max-width: 950px){
     .child01-child01-content a {
         width: 49%;
