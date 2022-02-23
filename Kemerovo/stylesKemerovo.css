@@ -136,11 +136,15 @@ p {
 }
 
 .navbarMain {
-    margin-top: -316px;
+    margin-top: -315px;
 }
 
-.iconMenuMain {
+/* .iconMenuMain {
     margin-top: 6px;
+} */
+
+.iconMenuMain li{
+    margin-top: 3px;
 }
 
 
@@ -190,7 +194,8 @@ p {
 }
 .navbar {
     height: 300px;
-    background: linear-gradient(black,rgba(0,0,0,0));
+    background: linear-gradient(black, rgba(0,0,0,0));
+
     display: flex;
     /* justify-content: space-between; */
     position: fixed;
@@ -200,11 +205,11 @@ p {
     right: 0;
     z-index: 20;
     margin-top: 70px;
-    transition: transform 0.5s ;
+    transition: transform 1s ;
 }
 
 .navbar--hidden {
-    transform: translateY(-230px);
+    transform: translateY(-400px);
 }
 .child01-child02-navbar {
     /* display: flex; */
@@ -216,6 +221,7 @@ p {
 }
 .child01-child02-navbar a {
     font-size: 18px;
+    margin:5px 0;
    
 }
 .child01-child02-navbar li {
@@ -225,7 +231,7 @@ p {
     font-size: 1.2rem;
     font-weight:300;
     letter-spacing: 0.03rem;
-    margin: 0;
+    /* margin: 0; */
     border: solid rgba(255, 255, 255, 0.3) 01px;
 
     letter-spacing: 0.05rem;
@@ -241,6 +247,16 @@ p {
 }
 .child02-navbar {
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#ppd li {
+    font-size: 32px;
+    /* height: 72.2%; */
+    margin-right: 10px;
+    padding: 5px;
+
 }
 
 /* Typography ////////////////////////////////////////////////////////////////////////////////////// */
