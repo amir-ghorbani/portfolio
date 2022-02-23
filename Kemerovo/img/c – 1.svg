@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="210" height="297" viewBox="0 0 210 297">
+  <defs>
+    <clipPath id="clip-c_1">
+      <rect width="210" height="297"/>
+    </clipPath>
+  </defs>
+  <g id="c_1" data-name="c – 1" clip-path="url(#clip-c_1)">
+    <rect width="210" height="297" fill="#90030a"/>
+    <path id="Path_103" data-name="Path 103" d="M17075-18375l210.1,297.4H17075Z" transform="translate(17285.104 -18077.598) rotate(180)" fill="#272727" style="mix-blend-mode: overlay;isolation: isolate"/>
+    <path id="Path_456" data-name="Path 456" d="M102.34,36.8V72.7H53.75V147.1h48.59V183H6.45V36.8Z" transform="translate(51.5 40.5)" fill="none" stroke="#fff" stroke-width="0.2"/>
+    <path id="Path_457" data-name="Path 457" d="M111.86,40.2V79.445H58.75v81.31h53.11V200H7.05V40.2Z" transform="translate(46.5 30.5)" fill="none" stroke="#fff" stroke-width="0.2"/>
+    <path id="Path_458" data-name="Path 458" d="M123.76,44.2V87.62H65v89.96h58.76V221H7.8V44.2Z" transform="translate(39.5 17.5)" fill="none" stroke="#fff" stroke-width="0.2"/>
+    <path id="Path_459" data-name="Path 459" d="M138.04,48.8V97.23H72.5V197.57h65.54V246H8.7V48.8Z" transform="translate(32.5 2.5)" fill="none" stroke="#fff" stroke-width="0.2"/>
+    <path id="Path_455" data-name="Path 455" d="M154.7,55v54.275H81.25v112.45H154.7V276H9.75V55Z" transform="translate(23.5 -14.5)" fill="none" stroke="#fff" stroke-width="0.2"/>
+    <path id="Path_454" data-name="Path 454" d="M173.74,61.8v60.955H91.25v126.29h82.49V310H10.95V61.8Z" transform="translate(13.5 -35.5)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Path_460" data-name="Path 460" d="M95.2,34V67.4H50v69.2H95.2V170H6V34Z" transform="translate(54 48)" fill="#90030a" style="mix-blend-mode: color-dodge;isolation: isolate"/>
+    <g id="Rectangle_363" data-name="Rectangle 363" transform="translate(2 2)" fill="none" stroke="#fff" stroke-width="5" style="mix-blend-mode: overlay;isolation: isolate">
+      <rect width="206" height="293" stroke="none"/>
+      <rect x="2.5" y="2.5" width="201" height="288" fill="none"/>
+    </g>
+    <g id="Rectangle_372" data-name="Rectangle 372" transform="translate(9 9)" fill="none" stroke="#fff" stroke-width="1" style="mix-blend-mode: overlay;isolation: isolate">
+      <rect width="192" height="279" stroke="none"/>
+      <rect x="0.5" y="0.5" width="191" height="278" fill="none"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="210" height="297" viewBox="0 0 210 297">
+  <defs>
+    <clipPath id="clip-a_1">
+      <rect width="210" height="297"/>
+    </clipPath>
+  </defs>
+  <g id="a_1" data-name="a – 1" clip-path="url(#clip-a_1)">
+    <rect width="210" height="297" fill="#90030a"/>
+    <path id="Path_446" data-name="Path 446" d="M6.45,146.88a57.808,57.808,0,0,0,5.16-3.118,15.2,15.2,0,0,0,4.085-4.192,20.519,20.519,0,0,0,2.687-6.665,47.042,47.042,0,0,0,.968-10.535V36.8H124.7V146.88h10.75V191.6H100.19V183H40.85v8.6H6.45Zm60.2-20.855-.107,2.687a35.743,35.743,0,0,1-.86,6.128,29.45,29.45,0,0,1-2.473,6.88,13.3,13.3,0,0,1-4.73,5.375H77.83V72.92H66.65Z" transform="translate(34.5 40.5)" fill="none" stroke="#fff" stroke-width="0.2"/>
+    <path id="Path_444" data-name="Path 444" d="M7.05,160.52a63.181,63.181,0,0,0,5.64-3.408,16.616,16.616,0,0,0,4.465-4.583,22.427,22.427,0,0,0,2.938-7.285A51.418,51.418,0,0,0,21.15,133.73V40.2H136.3V160.52h11.75V209.4H109.51V200H44.65v9.4H7.05Zm65.8-22.795-.117,2.938a39.068,39.068,0,0,1-.94,6.7,32.19,32.19,0,0,1-2.7,7.52,14.537,14.537,0,0,1-5.17,5.875H85.07V79.68H72.85Z" transform="translate(27.5 30.5)" fill="none" stroke="#fff" stroke-width="0.2"/>
+    <path id="Path_445" data-name="Path 445" d="M7.8,177.32a69.9,69.9,0,0,0,6.24-3.77,18.383,18.383,0,0,0,4.94-5.07,24.813,24.813,0,0,0,3.25-8.06,56.888,56.888,0,0,0,1.17-12.74V44.2H150.8V177.32h13V231.4H121.16V221H49.4v10.4H7.8ZM80.6,152.1l-.13,3.25a43.223,43.223,0,0,1-1.04,7.41,35.614,35.614,0,0,1-2.99,8.32,16.084,16.084,0,0,1-5.72,6.5h23.4V87.88H80.6Z" transform="translate(19.5 17.5)" fill="none" stroke="#fff" stroke-width="0.2"/>
+    <path id="Path_443" data-name="Path 443" d="M8.7,197.28a77.971,77.971,0,0,0,6.96-4.205,20.5,20.5,0,0,0,5.51-5.655,27.676,27.676,0,0,0,3.625-8.99A63.452,63.452,0,0,0,26.1,164.22V48.8H168.2V197.28h14.5V257.6H135.14V246H55.1v11.6H8.7Zm81.2-28.13-.145,3.625a48.212,48.212,0,0,1-1.16,8.265,39.724,39.724,0,0,1-3.335,9.28,17.94,17.94,0,0,1-6.38,7.25h26.1V97.52H89.9Z" transform="translate(9.5 2.5)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Path_103" data-name="Path 103" d="M17075-18375l210.1,297.4H17075Z" transform="translate(17285.104 -18077.598) rotate(180)" fill="#272727" style="mix-blend-mode: overlay;isolation: isolate"/>
+    <path id="Path_447" data-name="Path 447" d="M6,136.4a53.773,53.773,0,0,0,4.8-2.9,14.141,14.141,0,0,0,3.8-3.9,19.087,19.087,0,0,0,2.5-6.2,43.76,43.76,0,0,0,.9-9.8V34h98V136.4h10V178H93.2v-8H38v8H6ZM62,117l-.1,2.5a33.249,33.249,0,0,1-.8,5.7,27.4,27.4,0,0,1-2.3,6.4,12.372,12.372,0,0,1-4.4,5h18v-69H62Z" transform="translate(39 48)" fill="#90030a" style="mix-blend-mode: color-dodge;isolation: isolate"/>
+    <g id="Rectangle_363" data-name="Rectangle 363" transform="translate(2 2)" fill="none" stroke="#fff" stroke-width="5" style="mix-blend-mode: overlay;isolation: isolate">
+      <rect width="206" height="293" stroke="none"/>
+      <rect x="2.5" y="2.5" width="201" height="288" fill="none"/>
+    </g>
+    <g id="Rectangle_372" data-name="Rectangle 372" transform="translate(9 9)" fill="none" stroke="#fff" stroke-width="1" style="mix-blend-mode: overlay;isolation: isolate">
+      <rect width="192" height="279" stroke="none"/>
+      <rect x="0.5" y="0.5" width="191" height="278" fill="none"/>
+    </g>
+  </g>
+</svg>
