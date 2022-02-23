@@ -281,7 +281,13 @@ svg {
 
 #ppd {
     font-size: 18px;
+    padding-top: 4px;
 }
+
+#ppd svg{
+    padding-top: 4px;
+}
+
 
 @media all and (max-width: 950px){
     .child01-child01-content a {
