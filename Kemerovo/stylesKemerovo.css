@@ -147,6 +147,10 @@ p {
     margin-top: 3px;
 }
 
+.textMenuMain li{
+    margin-top: -2px;
+}
+
 
 /* BG: 2 vertical red line ////////////////////////////////////////////////// */
 #bg {
