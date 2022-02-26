@@ -146,7 +146,6 @@ p {
 .iconMenuMain li{
     margin-top: 3px;
 }
-
 .textMenuMain li{
     margin-top: -2px;
 }
@@ -250,11 +249,19 @@ p {
     background-color: #a8871b38;
 }
 .child02-navbar {
+    margin: 20px auto 0 auto;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+
+}
+
+.coal-navbar {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-
 }
+
+
 #ppd li {
     font-size: 32px;
     /* height: 72.2%; */
