@@ -90,16 +90,24 @@ p {
     z-index: 100;
     font-family: 'Josefin Sans', sans-serif;
     
+    
 }
 
 .navbar-mobileMain li {
-    margin: 33px;
+    margin: 32px;
+    
+    /* background-color: blue; */
 }
 #mobile-Navbar-main {
-    /* background-color: red; */
     margin-top: 2px;
+    /* background-color: red; */
 }
 
+#contact {
+    /* padding-left:50px; */
+    /* background-color: red; */
+   padding-bottom: 10px;
+}
 .containerMain {
     max-width: 1280px;
     margin: 0 auto;
