@@ -67,12 +67,14 @@ p {
 .navbarMain a {
     text-decoration: none;
     color: #333;
+    
 }
 
 .navbarMain a {
     color: #282828;
     padding: 10px;
     margin: 0 5px;
+    
 }
 
 .navbarMain .flexMain {
@@ -91,7 +93,11 @@ p {
 }
 
 .navbar-mobileMain li {
-    margin: 20px;
+    margin: 33px;
+}
+#mobile-Navbar-main {
+    /* background-color: red; */
+    margin-top: 2px;
 }
 
 .containerMain {
@@ -135,6 +141,7 @@ p {
 
 .navbar-links-mobileMain a{
     color:#282828;
+    
 }
 
 .navbarMain {
@@ -146,7 +153,7 @@ p {
 } */
 
 .iconMenuMain li{
-    margin-top: 3px;
+    margin-top: 2px;
 }
 .textMenuMain li{
     margin-top: -2px;
