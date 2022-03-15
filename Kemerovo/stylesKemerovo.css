@@ -206,6 +206,67 @@ p {
     height: 420px;
 }
 
+/* PPDbar nav */
+.navbar-ppd {
+    height: 300px;
+    /* background: linear-gradient(black, rgba(0,0,0,0)); */
+
+    display: flex;
+    /* justify-content: space-between; */
+    position: fixed;
+    
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    margin-top: 70px;
+    /* transition: transform 1s ; */
+    /* margin-left: 20px; */
+
+   
+}
+.child01-child02-navbar-ppd li {
+    margin: 0 15px;
+    padding:0px 20px;
+    /* border-right: solid white 1px; */
+    font-size: 1.2rem;
+    font-weight:300;
+    letter-spacing: 0.03rem;
+    /* margin: 0; */
+    /* border: solid rgba(255, 255, 255, 0.3) 1px; */
+
+    letter-spacing: 0.05rem;
+    text-align: center;
+    /* font-size: 1.1rem; */
+    /* padding: 4.5px; */
+    margin-bottom: 2px;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.4);
+    /* font-weight: 600; */
+    
+}
+.child01-child02-navbar-ppd li:hover {
+    /* border-bottom: solid white 1px; */
+    background-color: #a8871b38;
+}
+
+.child02-navbar-ppd {
+    margin: 20px auto 0 auto;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+
+}
+
+.child01-child02-navbar-ppd {
+    /* display: flex; */
+    margin: 20px auto 0 auto;
+    text-align: center;
+    /* align-items: center; */
+    line-height: 30px;
+    
+}
+
+
 /* Navigation ///////////////////////////////////////////////////////////////////////////////// */
 #logo {
     width: 55px;
@@ -279,7 +340,7 @@ p {
 }
 
 
-#ppd li {
+.ppd li {
     font-size: 32px;
     /* height: 72.2%; */
     margin-right: 10px;
