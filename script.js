@@ -27,3 +27,15 @@ toggleButton.addEventListener("click", () => {
 //     toggleButton.classList.toggle("active")
 // })
 
+const nav = document.querySelector(".navbar-ppd");
+let lastScrollY = window.scrollY;
+
+window.addEventListener("scroll", () => {
+    if (lastScrollY < window.scrollY) {
+        nav.classList.add("navbar-ppd--hidden");
+    } else {
+        nav.classList.remove("navbar-ppd--hidden");
+    }
+    lastScrollY = window.scrollY;
+});
+

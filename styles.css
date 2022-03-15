@@ -49,6 +49,98 @@ img {
     width: 100%;
 }
 /* Basic /////////////////////////////////////////////////*/
+/* PPDBar */
+.navbar-ppd {
+    /* height: 300px; */
+    /* background: linear-gradient(black, rgba(0,0,0,0)); */
+
+    display: flex;
+    /* justify-content: space-between; */
+    position: fixed;
+    max-width: 900px;
+    margin: 60px auto 0 auto;
+    flex-wrap: wrap;
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    margin-top: 90px;
+    transition: transform 1s ;
+    /* margin-left: 20px; */
+}
+.navbar-ppd--hidden {
+    transform: translateY(-50px);
+}
+
+
+
+.child02-navbar-ppd {
+    margin: 20px auto 0 auto;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* padding-top: 5px; */
+
+}
+.child01-child02-navbar-ppd {
+    /* display: flex; */
+    margin: 20px auto 0 auto;
+    text-align: center;
+    /* align-items: center; */
+    line-height: 35px;
+   
+    
+}
+.child01-child02-navbar-ppd li {
+    margin: 0 15px;
+    padding:0px 20px;
+    /* border-right: solid white 1px; */
+    font-size: 1.2rem;
+    font-weight:300;
+    letter-spacing: 0.03rem;
+    /* margin: 0; */
+    /* border: solid rgba(255, 255, 255, 0.3) 1px; */
+    color: white;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    /* font-size: 1.1rem; */
+    /* padding: 4.5px; */
+    margin-bottom: 2px;
+    border-radius: 5px;
+    background-color: rgba(255, 123, 0, 0.6);
+    /* font-weight: 600; */
+    
+}
+
+.child01-child02-navbar-ppd li:hover {
+    /* border-bottom: solid white 1px; */
+    background-color: #a8871b38;
+}
+
+.ppd li {
+    font-size: 32px;
+    /* height: 72.2%; */
+    margin-right: 10px;
+    padding: 5px;
+
+}
+
+
+.no-link li{
+    background-color: #f2f2f238;
+    color: #28282850;
+}
+.no-link li:hover {
+    background-color: #f2f2f238;
+}
+
+
+
+
+
+/* .caritas-ppd {
+    margin-top: 0;
+} */
 
 /* Navbar ////////////////////////////////////////////////*/
 .navbar {
@@ -327,6 +419,16 @@ svg {
     }
 }
 
+@media all and (max-width: 720px
+) {
+
+    .showcase-text {
+        padding-top: 100px;
+    }
+}
+
+
+
 
 @media all and (max-width: 650px) {
 
@@ -372,8 +474,36 @@ svg {
     margin: 2px auto;
 }
 
+.navbar-ppd li {
+    font-size: 30px;
+}
+
+
+
 
 }
+
+@media all and (max-width: 415px
+) {
+
+    .showcase-text {
+        padding-top: 150px;
+    }
+}
+
+@media all and (max-width: 320px
+) {
+
+    .showcase-text {
+        padding-top: 200px;
+    }
+}
+
+
+
+
+
+
 
 
 
