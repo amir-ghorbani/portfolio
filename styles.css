@@ -393,18 +393,7 @@ svg {
     padding-top: 4px;
 }
 
-.responsiveVideo {
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%;
-    position: relative;
-}
 
-.responsiveVideo iframe {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
 
 
 @media all and (max-width: 950px){
