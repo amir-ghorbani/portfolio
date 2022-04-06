@@ -406,6 +406,11 @@ svg {
     height: 100%;
 }
 
+#my-image {
+    width: 200px;
+    height: 200px;
+}
+
 
 @media all and (max-width: 950px){
     .child01-child01-content a {
