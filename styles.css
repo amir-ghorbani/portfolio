@@ -24,6 +24,11 @@ body {
     background-color: var(--primary-color);
 }
 
+.Gucci {
+    background-color:#144241;
+    color: rgb(255, 255, 255);
+}
+
 ul {
     list-style-type: none;
 }
@@ -33,7 +38,8 @@ a {
     color: #333;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-weight: 300;
     line-height: 1.2;
     margin: 10px 0;
@@ -48,6 +54,7 @@ p {
 img {
     width: 100%;
 }
+
 /* Basic /////////////////////////////////////////////////*/
 /* PPDBar */
 .navbar-ppd {
@@ -60,15 +67,16 @@ img {
     max-width: 900px;
     margin: 60px auto 0 auto;
     flex-wrap: wrap;
-    
+
     top: 0;
     left: 0;
     right: 0;
     z-index: 20;
     margin-top: 90px;
-    transition: transform 1s ;
+    transition: transform 1s;
     /* margin-left: 20px; */
 }
+
 .navbar-ppd--hidden {
     transform: translateY(-50px);
 }
@@ -82,21 +90,23 @@ img {
     /* padding-top: 5px; */
 
 }
+
 .child01-child02-navbar-ppd {
     /* display: flex; */
     margin: 20px auto 0 auto;
     text-align: center;
     /* align-items: center; */
     line-height: 35px;
-   
-    
+
+
 }
+
 .child01-child02-navbar-ppd li {
     margin: 0 15px;
-    padding:0px 20px;
+    padding: 0px 20px;
     /* border-right: solid white 1px; */
     font-size: 1.2rem;
-    font-weight:300;
+    font-weight: 300;
     letter-spacing: 0.03rem;
     /* margin: 0; */
     /* border: solid rgba(255, 255, 255, 0.3) 1px; */
@@ -109,7 +119,7 @@ img {
     border-radius: 5px;
     background-color: rgba(255, 123, 0, 0.6);
     /* font-weight: 600; */
-    
+
 }
 
 .child01-child02-navbar-ppd li:hover {
@@ -137,12 +147,13 @@ img {
     left: 0;
     right: 0;
     z-index: 20;
- 
+
 }
 
 .caritas-ppd .no-link {
     background-color: #33333338;
 }
+
 .caritas-ppd .no-link:hover {
     background-color: #33333338;
 }
@@ -166,6 +177,7 @@ img {
     font-size: 1.4rem;
     font-weight: 1000;
 }
+
 .navbar a {
     color: #282828;
     padding: 10px;
@@ -174,7 +186,7 @@ img {
 
 .textMenu a:hover {
     border-bottom: 2px #282828 solid;
-    
+
 }
 
 
@@ -190,25 +202,29 @@ svg {
 
 /* Showcase */
 .showcase {
-    margin: 100px 0 ;
+    margin: 100px 0;
     /* padding-top: 50px; */
 }
+
 .showcase-text {
     text-align: center;
 }
-.showcase-text h1{
+
+.showcase-text h1 {
     font-size: 50px;
-    
+
 }
 
 #showcase-h1 {
     padding-top: 50px;
 }
-.showcase-text p{
+
+.showcase-text p {
     font-size: 20px;
     font-weight: 400;
 }
-.showcase a{
+
+.showcase a {
     text-align: center;
 }
 
@@ -229,6 +245,19 @@ svg {
     height: 100%;
 }
 
+.flex_2Columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* flex-direction:row; */
+    align-items: top;
+    height: 100%;
+}
+
+.col_width {
+    width: 50%;
+}
+
 .content {
     z-index: -1;
 }
@@ -238,15 +267,15 @@ svg {
     max-width: 350px;
 } */
 /* .even-columns { */
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    
+/* display: flex; */
+/* flex-wrap: wrap; */
+/* justify-content: center; */
+/* align-items: center; */
+
 /* } */
 /* .even-columns > * { */
-    /* flex grow shrik basis */
-    /* flex: 0 1 22em; */
+/* flex grow shrik basis */
+/* flex: 0 1 22em; */
 /* } */
 
 .child01-child01-content {
@@ -286,12 +315,12 @@ svg {
     margin: 20px;
 }
 
-#arrow01 img{
+#arrow01 img {
     width: 50px;
     height: 40px;
 }
 
-#arrow02 img{
+#arrow02 img {
     width: 50px;
     height: 40px;
 }
@@ -300,9 +329,11 @@ svg {
 .caritas {
     text-align: center;
 }
+
 .caritas:hover {
     border-bottom: 2px #282828 solid;
 }
+
 #caritasFinal {
     margin-top: 100px;
 }
@@ -315,6 +346,7 @@ svg {
     width: 200px;
 
 }
+
 #myCV {
     width: 100%;
 }
@@ -354,11 +386,13 @@ svg {
     opacity: 0;
     transition: opacity 0.25s;
 }
+
 .image__overlay--blur {
     backdrop-filter: blur(5px);
 }
+
 /* Every direct child */
-.image__overlay > * {
+.image__overlay>* {
     transform: transformY(50px);
     transition: transform 0.25s;
 }
@@ -367,7 +401,7 @@ svg {
     opacity: 1;
 }
 
-.image__overlay:hover > * { 
+.image__overlay:hover>* {
     transform: transformY(0);
 }
 
@@ -389,7 +423,7 @@ svg {
     padding-top: 4px;
 }
 
-#ppd svg{
+#ppd svg {
     padding-top: 4px;
 }
 
@@ -411,49 +445,78 @@ svg {
     height: 200px;
 }
 
+.whiteColor {
+    color: white;
 
-@media all and (max-width: 950px){
+
+    
+}
+
+.whiteColorSVG {
+
+
+   filter: invert(100%) ;
+
+    
+}
+
+
+@media all and (max-width: 950px) {
     .child01-child01-content a {
         width: 49%;
         margin: 2px auto;
     }
+
     .container {
         max-width: 900px;
         margin: 0 auto;
         padding: 0 10px;
         /* overflow: auto; */
     }
+
     .toggle-button {
         right: 1rem;
-  
+
     }
+
 }
 
-@media all and (max-width: 800px){
+@media all and (max-width: 800px) {
     .child01-child01-content img {
         width: 100%;
         margin: 2px auto;
     }
+
     .container {
         max-width: 750px;
         margin: 0 auto;
         padding: 0 3px;
         /* overflow: auto; */
     }
+
     .toggle-button {
         right: 0.5rem;
-  
+
     }
+
     .arrowUp {
         margin: 30px 0;
     }
+
 }
 
-@media all and (max-width: 720px
-) {
+@media all and (max-width: 720px) {
 
     .showcase-text {
         padding-top: 100px;
+    }
+
+    .flex_2Columns {
+        justify-content: center;
+        flex-direction:column;
+        align-items: top;
+        align-content: center;
+        text-align: center;
     }
 }
 
@@ -470,7 +533,7 @@ svg {
     .toggle-button {
         display: flex;
     }
-   
+
 
     .navbar-mobile.active {
         display: flex;
@@ -484,29 +547,34 @@ svg {
         margin-top: -30px;
     }
 
+    
+
     /* Showcase */
 
-.showcase-text {
-    padding-top: 70px;
-}
-.showcase-text h1{
-    font-size: 30px;
-}
- .arrow {
-     margin-top: -50px;
- }
- .arrowUp {
-    margin: 20px 0;
-}
+    .showcase-text {
+        padding-top: 70px;
+    }
 
-.child01-child01-content a {
-    width: 100%;
-    margin: 2px auto;
-}
+    .showcase-text h1 {
+        font-size: 30px;
+    }
 
-.navbar-ppd li {
-    font-size: 30px;
-}
+    .arrow {
+        margin-top: -50px;
+    }
+
+    .arrowUp {
+        margin: 20px 0;
+    }
+
+    .child01-child01-content a {
+        width: 100%;
+        margin: 2px auto;
+    }
+
+    .navbar-ppd li {
+        font-size: 30px;
+    }
 
 
 
@@ -521,8 +589,7 @@ svg {
     }
 } */
 
-@media all and (max-width: 415px
-) {
+@media all and (max-width: 415px) {
 
     .showcase-caritas {
         padding-top: 50px;
@@ -541,15 +608,3 @@ svg {
         padding-top: 20px;
     } */
 }
-
-
-
-
-
-
-
-
-
-
-
-
